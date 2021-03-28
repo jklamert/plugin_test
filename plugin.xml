@@ -15,7 +15,7 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
   
-    <js-module src="www/testplugin.js" name="testPlugin">
+    <js-module src="www/plugin_test.js" name="testPlugin">
         <clobbers target="window.plugins.testPlugin" />
     </js-module>
     <platform name="android">
